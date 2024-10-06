@@ -1,5 +1,7 @@
 # IFT3355 macOS Compiler
 
+[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/etiennecollin/dockerfiles/blob/main/ift3355-macos-compilation/README.md)
+
 Si vous utilisez macOS, vous allez de rencontrer un problème de _linking_ lors de la compilation du TP, et ce, même si l'exécutable est généré. Ça risque de vous causer des problèmes plus tard dans le TP.
 
 Pour éviter cela, j'ai créé une image Docker qui permet de compiler le code correctement. Il vous suffit de cloner ce repo et de suivre les instructions. Pas de stress, c'est littéralement une commande dans le terminal. Tout est géré par un script!

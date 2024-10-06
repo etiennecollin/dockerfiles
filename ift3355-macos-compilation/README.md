@@ -1,5 +1,8 @@
 # IFT3355 macOS Compiler
 
+[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/etiennecollin/dockerfiles/blob/main/ift3355-macos-compilation/README.md)
+[![fr](https://img.shields.io/badge/lang-fr-blue.svg)](https://github.com/etiennecollin/dockerfiles/blob/main/ift3355-macos-compilation/README_FR.md)
+
 If you're using macOS, you will encounter a _linking_ issue when compiling the homework, even if the executable is generated. This could cause problems later in the homework.
 
 To avoid this, I’ve created a Docker image that allows you to compile the code correctly. You just need to clone this repo and follow the instructions. Don't worry, it's literally one command in the terminal. Everything is handled by a script!
