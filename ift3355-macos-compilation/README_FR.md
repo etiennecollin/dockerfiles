@@ -17,3 +17,5 @@ N'hésitez pas à me faire signe si vous rencontrez des problèmes. De mon côt�
    - Cette ligne ajoutée ne sert qu'à cross-compile le code. Pour exécuter le code dans le docker container, simplement commenter cette ligne.
 3. Maintenant, pour compiler le projet, exécuter: `./run.sh ./build.sh` à partir de la racine du TP2.
 4. Similairement, pour exécuter le code à partir du container, exécuter: `./run.sh ./build/RAY <...>` à partir de la racine du TP2.
+
+Le script `./run.sh` est utilisé pour exécuter des commandes/scripts shell à l'intérieur du container docker.

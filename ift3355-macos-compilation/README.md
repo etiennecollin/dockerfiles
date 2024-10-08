@@ -18,3 +18,5 @@ Feel free to reach out if you run into any issues. Everything works fine on my M
    - This added line is only for cross-compiling the code. To run the code in the Docker container, simply comment out this line.
 3. Now, to compile the project, run: `./run.sh ./build.sh` from the root of the homework.
 4. Similarily, to execute the code from the container, run: `./run.sh ./build/RAY <...>` from the root of the homework.
+
+The `./run.sh` script is used to run shell commands/scripts inside the docker container.
